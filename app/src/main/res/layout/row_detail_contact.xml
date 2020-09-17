@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical"
+    android:padding="5dip"
+    android:id="@+id/layout"
+    >
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/signika_negative_bold"
+        android:text="Name"
+        android:textColor="#040404"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/signika_light"
+        android:text="Assets"
+        android:textColor="#B5534C"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/signika_light"
+        android:text="Assets"
+        android:textColor="#5B84A5"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
